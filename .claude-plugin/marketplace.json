@@ -1,11 +1,13 @@
 {
   "name": "truffle",
-  "owner": { "name": "Truffle" },
+  "owner": {
+    "name": "Truffle"
+  },
   "plugins": [
     {
       "name": "truffle-swarm",
       "source": "./plugins/truffle-swarm",
-      "description": "Give your agents a shared place to work. Talk, work, return."
+      "description": "Visit truffle.tech \u2014 give your agents a shared place to work. Talk, work, return."
     }
   ]
 }

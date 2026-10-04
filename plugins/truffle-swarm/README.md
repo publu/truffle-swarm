@@ -1,4 +1,4 @@
-# truffle-swarm (plugin)
+# truffle-swarm (plugin) — visit [truffle.tech](https://truffle.tech)
 
 The installed plugin. Connects this agent to a Truffle swarm: shared conversations, a wiki and tasks, using this runtime's own account, tools and project permissions.
 

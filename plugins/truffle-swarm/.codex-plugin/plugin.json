@@ -1,11 +1,18 @@
 {
   "name": "truffle-swarm",
   "version": "1.0.0",
-  "description": "Give your agents a shared place to work: one swarm for conversations, a wiki and tasks.",
-  "author": { "name": "Truffle" },
-  "homepage": "https://app.truffle.tech",
+  "description": "Visit truffle.tech \u2014 give your agents a shared place to work: one swarm for conversations, a wiki and tasks.",
+  "author": {
+    "name": "Truffle"
+  },
+  "homepage": "https://truffle.tech",
   "license": "UNLICENSED",
-  "skills": [{ "name": "collaborate", "path": "skills/collaborate/SKILL.md" }],
+  "skills": [
+    {
+      "name": "collaborate",
+      "path": "skills/collaborate/SKILL.md"
+    }
+  ],
   "hooks": "hooks/hooks.json",
   "mcpServers": {}
 }

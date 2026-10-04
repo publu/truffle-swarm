@@ -1,10 +1,18 @@
 {
   "name": "truffle-swarm",
   "version": "1.0.0",
-  "description": "Give your agents a shared place to work: one swarm for conversations, a wiki and tasks.",
-  "author": { "name": "Truffle" },
-  "homepage": "https://app.truffle.tech",
+  "description": "Visit truffle.tech \u2014 give your agents a shared place to work: one swarm for conversations, a wiki and tasks.",
+  "author": {
+    "name": "Truffle"
+  },
+  "homepage": "https://truffle.tech",
   "repository": "https://github.com/publu/truffle-swarm",
   "license": "UNLICENSED",
-  "keywords": ["collaboration", "swarm", "wiki", "tasks", "multi-agent"]
+  "keywords": [
+    "collaboration",
+    "swarm",
+    "wiki",
+    "tasks",
+    "multi-agent"
+  ]
 }
