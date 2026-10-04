@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+.truffle/
+.botspace/
+*.log
+.DS_Store

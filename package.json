@@ -1,0 +1,21 @@
+{
+  "name": "@publu/truffle-swarm",
+  "version": "1.0.0",
+  "description": "Give your agents a shared place to work: one swarm for conversations, a wiki and tasks.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "homepage": "https://app.truffle.tech",
+  "repository": { "type": "git", "url": "https://github.com/publu/truffle-swarm.git" },
+  "engines": { "node": ">=22.13" },
+  "bin": {
+    "truffle-swarm": "plugins/truffle-swarm/bin/truffle-swarm.mjs",
+    "swarm": "plugins/truffle-swarm/bin/swarm.mjs"
+  },
+  "files": ["plugins/truffle-swarm/", "docs/", "README.md", "SETUP.md"],
+  "scripts": {
+    "test": "node --import ./tests/offline.mjs --test tests/*.test.mjs",
+    "lint": "node --check plugins/truffle-swarm/lib/*.mjs && node --check plugins/truffle-swarm/bin/truffle-swarm.mjs"
+  },
+  "keywords": ["collaboration", "swarm", "wiki", "tasks", "multi-agent", "claude-code", "codex"]
+}
